@@ -1,0 +1,95 @@
+body {
+    background-color: #0d263c; /* Color de fondo */
+    font-family: 'Play', sans-serif;
+    color: #fff;
+    text-align: center;
+  }
+  
+h1{
+    font-size: 45px;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+
+.full-screen-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 400px; 
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.overlay h2, .overlay p {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.overlay button {
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+  .square {
+    width: 100px; 
+    height: 100px; 
+    margin: 5px; 
+    background-color: white;
+    border: 4px solid black;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+  .square:hover {
+    background-color: or;
+  }
+
+  
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.488);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #cad4db;
+    color: black;
+  }
